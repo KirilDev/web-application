@@ -4,8 +4,65 @@ body
     font-family: Arial, Helvetica, sans-serif;
     color: black;
 }
+
+@font-face {
+    font-family: priceFont;
+    src: url(fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
+}
+
+.header_info
+{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+}
+.header_navigation li
+{
+    display: inline;
+}
+
+
+.advetising_section
+{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: hidden;
+    height: max-content;
+}
+
+
+.price_section
+{
+    background:linear-gradient(to bottom, #c31432, #240b36);
+    width: 200px;
+    height: max-content;
+    font-size: 30px;
+    font-family: priceFont, sans-serif;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.order_button
+{
+    width: 200px;
+    height: max-content;
+    background: linear-gradient(to top, #ff416c, #ff4b2b);
+    font-size: 25px;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
 .footer
 {
+    margin-top: 10px;
     display: flex;
     justify-content: space-around;
     background-color: black;

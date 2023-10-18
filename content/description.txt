@@ -1,0 +1,6 @@
+This file I created for notes than I will be create while coding.
+
+1.
+Was a stupid situation.
+I connected my styles file but forget that this file contain in main directory, not in folder and
+I don't understand wy styles doesnt work

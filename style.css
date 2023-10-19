@@ -10,6 +10,8 @@ body
     src: url(fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
 
+
+/*Main styles for webpages and index.html*/
 .header_info
 {
     display: flex;
@@ -84,4 +86,38 @@ a
 {
 color: white;
 text-decoration: none;
+}
+
+
+/*Styles for orderCheck.html*/
+
+.order_tracking
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 10px black;
+
+}
+
+#order_input
+{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/*The new code - how to hide spin in the number input*/
+#order_input::-webkit-outer-spin-button, #order_input::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+} 
+
+#order_button
+{
+    font-size: 15px;
+    cursor: pointer;
 }

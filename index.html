@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="manifest" href="manifest/manifest.json">
     <link rel="shortcut icon" href="content/store.png">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -111,6 +112,11 @@
     </footer>
 
     <script src="js/index.js"></script>
-    <script src="js/serviceworker.js"></script>
+    <script>
+        if ('service worker' in navigator)
+        {
+            navigator.serviceWorker.register('js/serviceworker.js', {scope: '/'});
+        }
+    </script>
 </body>
 </html>

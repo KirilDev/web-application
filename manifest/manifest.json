@@ -1,0 +1,16 @@
+    {
+        "name": "Tech Internet Shopping App",
+        "short_name": "Tech Shop",
+        "description": "Hey there! Here is a Tech store",
+        "start_url": "/index.html",
+        "background_color": "#FFFFFF",
+        "theme_color": "#0000",
+        "orientation": "horizontal",
+        "display": "standalone",
+        "icons": [
+            {
+                "src": "/content/store.png",
+                "sizes": "512x512"
+            }
+        ]
+    }

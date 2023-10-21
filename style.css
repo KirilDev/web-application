@@ -22,6 +22,17 @@ body
     background-color: black;
     color: white;
 }
+
+.header_info_second
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: max-content;
+    background-color: black;
+    color: white;
+}
+
 .header_navigation li
 {
     display: inline;
@@ -72,6 +83,17 @@ body
     height: max-content;
     color: white;
 }
+
+.footer_second
+{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    height: max-content;
+    color: white;
+}
+
 .data_first
 {
     margin-left: 10px;
@@ -127,4 +149,19 @@ text-decoration: none;
 .error_message
 {
     padding: 100px;
+}
+
+
+/*Code for shopPage.html*/
+.product_type
+{
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+    background: url('content/color-gradient-fdv.gif');
+    background-size: 120%;
+    overflow: hidden;
+    height:200px;
 }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="manifest" href="manifest/manifest.json">
+    <link rel="shortcut icon" href="content/store.png">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Internet Shopping</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header_info_second">
+
+            <div class="header_logo">
+                <h1>Tech Internet Shopping</h1>
+            </div>
+
+            <div class="header_navigation">
+                <ol id="header_list_nav">
+                    <li><h3><a href="index.html">Home</a></h3></li>
+                    <li><h3><a href="index.html#data_second">Contact</a></h3></li>
+                    <li><h3><a href="#"></a>Go to Shop</h3></li>
+                    <li><h3><a href="orderCheck.html">Check Order Status</a></h3></li>
+                    <li><h3><a href="questionAndAnswer.html"></a>Q&A</h3></li>
+                </ol>
+            </div>
+
+        </div>
+    </header>
+
+
+
+<div class="product_type">
+    <div class="IMB"><h3><a href="#"></a>Explore Computers</h3></div>
+    <div class="mobile"><h3><a href="#"></a>Explore Mobiles</h3></div>
+    <div class="accesories"><h3><a href="#"></a>Explore Accesories</h3></div>
+</div>
+
+
+
+    
+    <footer class="footer_second">
+        <!--Div for A map and store working time-->
+        <div class="data_first">
+            
+            <h2 class="location_text">
+                We're located at Rīga, <a href="https://maps.app.goo.gl/bgMBpngV6iVSMWuC6"><ins>Ģertrūdes iela 12</ins></a>
+            </h2>
+
+            <div class="map_data">
+                <h2>Map:</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.5020310812865!2d24.12005737741785!3d56.95733249857702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfcc1638f395%3A0x6474e42ef6e0cb4d!2zxKJlcnRyxatkZXMgaWVsYSAxMiwgQ2VudHJhIHJham9ucywgUsSrZ2EsIExWLTEwMTA!5e0!3m2!1sen!2slv!4v1697571237974!5m2!1sen!2slv" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <br>          
+        <div class="info">
+            <h2>Tech Internet Shop 2023©</h2>
+        </div>
+        </div>
+
+        <!--Div for a contact information-->
+        <div class="data_second" id="data_second">
+            <div class="phone_number_data">
+                <h2 class="phone_number">
+                    <a href="tel:+3712534002">Our phone number is +3712534002</a>
+                </h2>
+            </div>
+            <div class="email_data">
+                <h2>Also you can contact with us by email:</h2>
+                <a href="mailto:clients@email.com"><h3>clients@email.com</h3></a>
+                <a href="mailto:b2b@email.com"><h3>b2b@email.com</h3></a>
+            </div>
+
+            <br>
+            <div class="working_time_data">
+                <h2>Working time is:</h2>
+                <ol>
+                    <li><h3>Monday: 10:00-22:00</h3></li>
+                    <li><h3>Tuesday: 10:00-22:00</h3></li>
+                    <li><h3>Wednesday: 10:00-22:00</h3></li>
+                    <li><h3>Thursday: 10:00-22:00</h3></li>
+                    <li><h3>Friday: 10:00-22:00</h3></li>
+                    <li><h3>Weekends: 11:00-18:00</h3></li>
+                </ol>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+    <script>
+        if ('service worker' in navigator)
+        {
+            navigator.serviceWorker.register('js/serviceworker.js', {scope: '/'});
+        }
+    </script>
+</body>
+</html>

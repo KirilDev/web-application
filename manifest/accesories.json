@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Wireless headphones AirPods (2GEN)",
+        "description": "Apple Airpods 2 gen",
+        "image": "",
+        "price": "160 $",
+        "other": "WA2252"
+    },
+    {
+        "id": 2,
+        "name": "Wireless Headphones AirPods (3GEN)",
+        "description": "Apple Airpods 3 Gen",
+        "image": "",
+        "price": "210 $",
+        "other": "WA3252"   
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones AirPods Max",
+        "description": "Apple Airpods Max",
+        "image": "",
+        "price": "630 $",
+        "other": "WA44252"  
+
+
+]

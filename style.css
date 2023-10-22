@@ -48,6 +48,11 @@ body
     height: max-content;
 }
 
+.newsletter_input
+{
+    color: black;
+    font-size: 20px;
+}
 
 .price_section
 {

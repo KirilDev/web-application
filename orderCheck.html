@@ -34,33 +34,26 @@
             <center>
                 <div class="order_title">
                     <h1>Lets track your order!</h1>
-                    
-                    <form action="">
                         <label for="order_input"><h2>Just enter order number here:</h2></label>
-                        <input type="number" name="#" id="order_input" placeholder="Enter your number" maxlength="15" required>
+                        <input type="number" name="order_input" id="order_input" placeholder="Enter your number" maxlength="15" required>
                         <br>
-                        <button id="order_button" type="submit">Check Your order</button>
+                        <button id="order_button" onclick="order_send()">Check Your order</button>
                         <h3>How looking for my order number? Check Q&A page!</h3>
-                    </form>
                 </div>
 
-                <div class="order_info" hidden>
+                <div class="order_info" id="order_info" hidden>
                     <br>
                     <br>
                     <h1 class="order_info_title">Your order information:</h1>
 
                     <div class="order_information">
-                        <p class="order_name">762507629093381</p>
+                        <p class="order_name" id="order_name"></p>
                         <br>
-                        <p class="order_details">LAPTOP</p>
+                        <p class="order_details" id="order_details"></p>
                         <br>
-                        <img src="content/402992-15-to-16-inch-laptops-lenovo-ideapad-5-15itl05-10018518.png" width="100" height="70" alt="" class="order_image">
+                        <p class="status" id="status"></p>
                         <br>
-                        <p class="status">Delivered</p>
-                        <br>
-                        <p class="payment_status">Complete</p>
-                        <br>
-                        <p class="comments">none</p>
+                        <p class="comments" id="comments"></p>
                     </div>
                 </div>
             </center>
@@ -114,6 +107,7 @@
         </div>
     </footer>
 
+    <script src="js/orderCheck.js"></script>
     <script src="js/index.js"></script>
     <script src="js/serviceworker.js"></script>
 </body>

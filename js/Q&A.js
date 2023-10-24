@@ -4,7 +4,7 @@ fetch("manifest/Q&A.json")
 })
 .then(function(products){
     let placeholder = document.querySelector("#guestionCard");
-    let out = ""
+    let out = "";
     for(let product of products)
     {
         out += `

@@ -10,6 +10,11 @@ body
     src: url(fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
 }
 
+@font-face {
+    font-family: goodCardFont;
+    src: url(fonts/Oswald/Oswald-VariableFont_wght.ttf);
+}
+
 
 /*Main styles for webpages and index.html*/
 .header_info
@@ -76,6 +81,7 @@ body
     border-radius: 10px;
     color: white;
     padding: 10px;
+    cursor: pointer;
 }
 
 .footer
@@ -172,3 +178,34 @@ text-decoration: none;
 }
 
 
+/*Code for accesories.html (and exactly the same)*/
+.goods_card
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.good_card
+{
+padding: 30px;
+margin-top: 20px;
+font-size: 20px;
+font-family: goodCardFont, sans-serif;
+}
+.good_card .description
+{
+width: 350px;
+}
+.good_card .price_name
+{
+    font-size: 30px;
+}
+
+
+/*Code for Q&A.html*/
+.QAcard
+{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}

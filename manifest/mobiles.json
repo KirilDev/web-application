@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 11 White",
+        "description": "Featuring a Stunning Pro Display, A13 Bionic, Cutting-Edge Pro Camera System and Longest Battery Life Ever with iPhone 11 .",
+        "image": "content/iphone11.jpg",
+        "price": "549 $",
+        "other": "IP11828"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 13 Mini",
+        "description": "Featuring a sleek and durable design, an advanced new dual-camera system for improved photos and videos in low light, and introducing Cinematic mode.",
+        "image": "content/iphone13mini.jpg",
+        "price": "700 $",
+        "other": "IP1354846"   
+    },
+    {
+        "id": 3,
+        "name": "iPhone 15 Pro Max",
+        "description": "Enter A17 Pro. Game‑changing chip. Groundbreaking performance..",
+        "image": "content/iphone15Pro.png",
+        "price": "1300 $",
+        "other": "IP15767644"  
+    }
+]

@@ -2,24 +2,24 @@
     {
         "id": 1,
         "name": "Wireless headphones AirPods (2GEN)",
-        "description": "Apple Airpods 2 gen",
-        "image": "",
+        "description": "With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out and they’re ready to use with all your devices. Put them in your ears and they connect immediately, immersing you in rich, high-quality sound. Just like magic.",
+        "image": "content/airpods2.jpg",
         "price": "160 $",
         "other": "WA2252"
     },
     {
         "id": 2,
         "name": "Wireless Headphones AirPods (3GEN)",
-        "description": "Apple Airpods 3 Gen",
-        "image": "",
+        "description": "Style from ear to ear. With a contoured design and shorter stem, AirPods are designed to direct sound into your ears — in a refined look anyone can appreciate.",
+        "image": "content/airpods3.jpg",
         "price": "210 $",
         "other": "WA3252"   
     },
     {
         "id": 3,
         "name": "Wireless Headphones AirPods Max",
-        "description": "Apple Airpods Max",
-        "image": "",
+        "description": "Introducing AirPods Max — a perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods. The ultimate personal listening experience is here.",
+        "image": "content/airpodsmax.jpg",
         "price": "630 $",
         "other": "WA44252"  
     }

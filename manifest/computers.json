@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "MacBook Air 13 M1",
+        "description": "Apple’s thinnest and lightest notebook gets supercharged with the Apple M1 chip. Tackle your projects with the blazing-fast 8-core CPU. Take graphics-intensive apps and games to the next level with an up to 8-core GPU. And accelerate machine learning tasks with the 16-core Neural Engine. All with a silent, fanless design and the longest battery life ever—up to 18 hours. MacBook Air. Still perfectly portable. Just a lot more powerful.",
+        "image": "content/macbookair13.jpg",
+        "price": "999 $",
+        "other": "WA2252"
+    },
+    {
+        "id": 2,
+        "name": "MacBook Air 15 M1",
+        "description": "The 15-inch MacBook Air is impossibly thin and has a stunning Liquid Retina display. Supercharged by the M2 chip—and with up to 18 hours of battery life—it delivers incredible performance in an ultraportable design.",
+        "image": "content/macbookAir15.png",
+        "price": "1199 $",
+        "other": "WA3252"   
+    },
+    {
+        "id": 3,
+        "name": "MacBook Pro 14 M2",
+        "description": "MacBook Pro. Unparalleled pro performance. The 14-inch MacBook Pro with M2 Pro and M2 Max takes power and speed to the next level, whether it’s on battery or plugged in. With a stunning Liquid Retina XDR display, all the ports you need, and all-day battery life—this pro laptop goes anywhere you need. • Stunning 14-inch Liquid Retina XDR display with extreme dynamic range and contrast ratio • M2 Pro or M2 Max chip for exceptional speed and power • Up to 12-core CPU delivers speeds up to 20 percent faster to fly through pro workflows quicker than ever • Up to 38-core GPU with speeds up to 30 percent faster for graphics-intensive apps and games • Up to 96GB of unified memory makes everything you do fast and fluid • Up to 18 hours of battery life • Up to 8TB of superfast SSD storage launches apps and opens files in an instant • 1080p FaceTime HD camera • Six-speaker sound system with force-cancelling woofers • Studio-quality three-microphone array captures your voice more clearly • Three Thunderbolt 4 ports, HDMI port, SDXC card slot, headphone jack, MagSafe charging port • Fast Wi-Fi 6E wireless connectivity • Backlit Magic Keyboard with Touch ID for secure unlock • macOS Ventura gives you powerful new ways to get more done, share, and collaborate—across all your Apple devices.",
+        "image": "content/macbook14m2.jpeg",
+        "price": "1500 $",
+        "other": "WA44252"  
+    },
+    {
+        "id": 4,
+        "name": "iMac",
+        "description": "Say hello to the new iMac.Inspired by the best of Apple. Transformed by the M1 chip. Stands out in any space. Fits perfectly into your life. The 24-inch iMac is the most personal, powerful, capable, and fun iMac ever. It has a stunningly thin design in seven vibrant colors, an immersive 4.5K Retina display, and the best camera, mics, and speakers ever in a Mac, taking the all-in-one experience to a new level. With the power of the Apple M1 chip and macOS, iMac is versatile enough to turn a living room into a classroom, a kitchen into a conference room, or a bedroom into a theater.",
+        "image": "content/imac.jpg",
+        "price": "1200$",
+        "other": "IM21154544"
+    },
+    {
+        "id": 5,
+        "name": "Macbook Pro 15 M2",
+        "description": "Strikingly thin and fast so you can work, play, or create anywhere.",
+        "image": "content/apple_mphe3ll_a_14_macbook_pro_with_1746351.jpg",
+        "price": "1999$",
+        "other": "MC4546987"
+    }
+]

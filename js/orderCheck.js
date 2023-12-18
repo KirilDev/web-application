@@ -17,7 +17,6 @@ function order_send()
 {
     if (orderInput.value == orders_numbers[0]) 
     {
-
         document.getElementById("order_info").removeAttribute("hidden");
         order_name.innerHTML = orders_numbers[0];
         order_details.innerHTML = order_details_info[0];
